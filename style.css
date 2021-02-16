@@ -1,0 +1,77 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+body{
+    background-image: url('./img//body-bg.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.nav-link:hover{
+    color: brown !important;
+    transform: scale(1.1);
+     
+     
+}
+
+.zahid{
+    /* text-shadow: 1px 1px 1px rgb(138, 138, 138); */
+}
+
+
+.first-banner{
+    /* text-shadow: 1px 1px 1px rgb(116, 116, 116); */
+}
+
+.brand{
+
+    max-width: 100px;
+    margin: 20px 0px 20px 20px;
+    transition: .2s;
+}
+
+
+.brand:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.third-banner{
+    font-size: 15px !important;
+}
+
+.exp-block{
+    font-size: 1em !important;
+    border: 1px dotted rgb(129, 128, 128);
+    padding: 20px;
+    width: 50%;
+    max-width: 450px;
+    background-color: rgb(255, 249, 240);
+    transition: .3s;
+}
+
+.exp-block:hover{
+    transform: scale(1.03);
+}
+
+
+.fourth-banner{
+    width: 85%;
+    max-width: 750px;
+    display: block;
+}
+
+
+.card{
+    width: 80%;
+    max-width: 250px;
+    padding: 10px;
+    border:0px solid white;
+    transition: .2s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
