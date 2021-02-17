@@ -67,7 +67,7 @@ body{
     width: 80%;
     max-width: 250px;
     padding: 10px;
-    border:0px solid white;
+    border:0px solid white !important;
     transition: .2s;
 }
 
