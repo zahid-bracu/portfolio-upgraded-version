@@ -75,3 +75,45 @@ body{
     transform: scale(1.1);
     cursor: pointer;
 }
+
+
+.web-port{
+    transition: .2s;
+    width: 80%;
+    max-width: 300px;
+}
+
+.web-port:hover{
+    box-shadow: 5px 5px 10px rgb(206, 206, 206);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.photo-port{
+    filter: grayscale(100%);
+    width: 80%;
+    max-width: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.photo-port:hover{
+  
+    transform: scale(1.02);
+    cursor: pointer;
+    filter: grayscale(0%);
+}
+
+.client{
+    width: 80%;
+    max-width: 650px;
+}
+
+
+footer{
+     
+    width: 90%;
+    max-width: 950px;
+     
+    padding: 10px 30px;
+}
